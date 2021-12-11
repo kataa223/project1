@@ -4,7 +4,7 @@
 # 検索ソース
 #source=["ねずこ","たんじろう","きょうじゅろう","ぎゆう","げんや","かなお","ぜんいつ"]
 
-# source.csvを読み込み
+### source.csvを読み込み
 open_file = open('source.csv', encoding='utf-8')
 data = open_file.read()
 source = data.split(',')
